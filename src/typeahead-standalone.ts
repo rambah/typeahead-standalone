@@ -509,7 +509,7 @@ const typeahead = <T extends Dictionary>(config: typeaheadConfig<T>): typeaheadR
     }
 
     if (ev.key === 'Tab' && isListOpen()) {
-      ev.preventDefault();
+      //ev.preventDefault();
       useSelectedValue(true);
     }
   };
